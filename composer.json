@@ -14,5 +14,12 @@
         "psr-4": {
             "Liamdemafelix\\LaravelAuditor\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liamdemafelix\\LaravelAuditor\\AuditorServiceProvider"
+            ]
+        }
     }
 }
